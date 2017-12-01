@@ -1,7 +1,9 @@
 require(tidyverse)
 require(reldist)
 
-# read in data sourced from Wikipedia tables
+# read in data sourced from Wikipedia tables at:
+# https://en.wikipedia.org/wiki/List_of_U.S._states_by_historical_population
+
 data1 = read.csv("/1790-1860.csv", check.names = FALSE, stringsAsFactors = FALSE)
 data2 = read.csv("/1870-1950.csv", check.names = FALSE, stringsAsFactors = FALSE)
 data3 = read.csv("/1960-2010.csv", check.names = FALSE, stringsAsFactors = FALSE)
